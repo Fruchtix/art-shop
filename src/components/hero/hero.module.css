@@ -1,0 +1,17 @@
+.container {
+  background-image: url("../../assets/images/hero.png");
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headline {
+  composes: primaryColor from "../../styles/globalStyles.module.css";
+}
+
+.subHeadline {
+  composes: primaryColor from "../../styles/globalStyles.module.css";
+}
