@@ -1,8 +1,27 @@
 import React from "react";
-import { Hero } from "../../components";
+import {
+  Hero,
+  InfoGrid,
+  Jumbotron,
+  ArtistCarousel,
+  Categories,
+  CtaBox,
+  Footer,
+} from "../../components";
 
 function Home() {
-  return <Hero />;
+  return (
+    <>
+      <Hero />
+      <InfoGrid />
+      <Jumbotron />
+      <ArtistCarousel />
+      <Jumbotron />
+      <Categories />
+      <CtaBox />
+      <Footer />
+    </>
+  );
 }
 
 export default Home;
