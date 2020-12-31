@@ -10,7 +10,7 @@ function Hero() {
         suspendisse ultrices gravida dictum fusce ut placerat orci nulla
         pellentesque dignissim enim sit amet
       </h2>
-      <button className={styles.ctaBtn}>Kunst ansehen</button>
+      <button className={styles.ctaBtn}>Werke ansehen</button>
     </div>
   );
 }

@@ -7,11 +7,13 @@ import {
   Categories,
   CtaBox,
   Footer,
+  NavBar,
 } from "../../components";
 
 function Home() {
   return (
     <>
+      <NavBar />
       <Hero />
       <InfoGrid />
       <Jumbotron />

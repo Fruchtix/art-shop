@@ -5,3 +5,4 @@ export { default as ArtistCarousel } from "./artistCarousel";
 export { default as Categories } from "./categories";
 export { default as CtaBox } from "./ctaBox";
 export { default as Footer } from "./footer";
+export { default as NavBar } from "./navBar";
