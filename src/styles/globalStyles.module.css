@@ -1,3 +1,30 @@
 .primaryColor {
   color: #fff;
 }
+
+.headlineH1 {
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.08em;
+  line-height: 105%;
+}
+
+.headlineH2 {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  line-height: 170%;
+}
+
+.ctaBtn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.08em;
+  border: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+}

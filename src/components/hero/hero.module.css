@@ -1,17 +1,36 @@
 .container {
   background-image: url("../../assets/images/hero.png");
   background-size: cover;
-  height: 60vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 15px;
 }
 
 .headline {
   composes: primaryColor from "../../styles/globalStyles.module.css";
+  composes: headlineH1 from "../../styles/globalStyles.module.css";
+  margin-bottom: 20px;
 }
 
 .subHeadline {
   composes: primaryColor from "../../styles/globalStyles.module.css";
+  composes: headlineH2 from "../../styles/globalStyles.module.css";
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.ctaBtn {
+  composes: ctaBtn from "../../styles/globalStyles.module.css";
+  padding: 10px 20px;
+  color: #000;
+  background-color: #fff;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.ctaBtn:hover {
+  background-color: #242424;
+  color: #fff;
 }
