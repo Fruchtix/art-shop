@@ -1,5 +1,49 @@
 .container {
   background-color: #000;
-  height: 20vh;
   margin-top: 150px;
+  padding: 50px;
+}
+
+.headline {
+  composes: headlineH1 from "../../styles/globalStyles.module.css";
+  color: #fff;
+}
+
+.subHeadline {
+  composes: headlineH2 from "../../styles/globalStyles.module.css";
+  color: #fff;
+}
+
+.textWrapper {
+  width: 70%;
+}
+
+.btnWrapper {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ctaBtn {
+  composes: ctaBtn from "../../styles/globalStyles.module.css";
+  padding: 10px 20px;
+  color: #000;
+  background-color: #fff;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.ctaBtn:hover {
+  background-color: #242424;
+  color: #fff;
+}
+
+.ctaBtn:focus {
+  outline: none;
+}
+
+.maxWidth {
+  max-width: 1320px;
+  display: flex;
+  margin: auto;
 }

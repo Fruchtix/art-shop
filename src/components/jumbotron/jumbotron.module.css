@@ -3,6 +3,9 @@
   margin-top: 150px;
   display: flex;
   justify-content: flex-end;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .reverse {
@@ -10,8 +13,7 @@
 }
 
 .textWrapper {
-  margin-left: 50px;
-  padding: 5% 125px 5% 0px;
+  padding: 5% 125px 5% 50px;
   width: 450px;
 }
 
@@ -53,4 +55,10 @@
 
 .ctaBtn:focus {
   outline: none;
+}
+
+@media (min-width: 1320px) {
+  .imageWrapper {
+    margin-right: 50px;
+  }
 }
