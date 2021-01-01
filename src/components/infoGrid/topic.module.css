@@ -1,0 +1,34 @@
+.headlineWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imageWrapper {
+}
+
+.container {
+}
+
+.mr {
+  margin-right: 55px;
+}
+
+.headline {
+  composes: headlineH1 from "../../styles/globalStyles.module.css";
+  font-size: 15px;
+  padding: 10px 0px 5px 0px;
+  margin-right: 10px;
+  color: rgb(59, 59, 59);
+}
+
+.subHeadline {
+  composes: headlineH2 from "../../styles/globalStyles.module.css";
+  color: rgb(99, 99, 99);
+  font-size: 15px;
+}

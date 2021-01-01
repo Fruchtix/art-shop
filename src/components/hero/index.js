@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./hero.module.css";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -10,7 +11,9 @@ function Hero() {
         suspendisse ultrices gravida dictum fusce ut placerat orci nulla
         pellentesque dignissim enim sit amet
       </h2>
-      <button className={styles.ctaBtn}>Werke ansehen</button>
+      <Link to="/art">
+        <button className={styles.ctaBtn}>Werke ansehen</button>
+      </Link>
     </div>
   );
 }

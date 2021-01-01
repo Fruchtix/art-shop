@@ -18,7 +18,7 @@ function Home() {
       <InfoGrid />
       <Jumbotron />
       <ArtistCarousel />
-      <Jumbotron />
+      <Jumbotron reverse />
       <Categories />
       <CtaBox />
       <Footer />

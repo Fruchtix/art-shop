@@ -1,4 +1,56 @@
 .container {
   background-color: #fff;
-  height: 50vh;
+  margin-top: 150px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.textWrapper {
+  margin-left: 50px;
+  padding: 5% 125px 5% 0px;
+  width: 450px;
+}
+
+.imageWrapper {
+  width: 50%;
+}
+
+.image {
+  background-image: url("https://cdn03.plentymarkets.com/2f2pb4p75jib/item/images/93388/full/e95791-0.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.headline {
+  composes: headlineH1 from "../../styles/globalStyles.module.css";
+  margin-bottom: 20px;
+}
+
+.subHeadline {
+  composes: headlineH2 from "../../styles/globalStyles.module.css";
+  color: rgb(59, 59, 59);
+  margin-bottom: 40px;
+}
+
+.ctaBtn {
+  composes: ctaBtn from "../../styles/globalStyles.module.css";
+  padding: 10px 40px;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.ctaBtn:hover {
+  background-color: #242424;
+  color: #fff;
+}
+
+.ctaBtn:focus {
+  outline: none;
 }
