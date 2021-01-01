@@ -1,4 +1,20 @@
 .container {
-  background-color: grey;
+  background-color: #fff;
   height: 50vh;
+  margin-top: 150px;
+}
+
+.headlineH1 {
+  composes: headlineH1 from "../../styles/globalStyles.module.css";
+}
+
+.subHeadline {
+  composes: headlineH2 from "../../styles/globalStyles.module.css";
+  color: #3b3b3b;
+  padding-top: 15px;
+}
+
+.headlineWrapper {
+  text-align: center;
+  margin-top: 50px;
 }

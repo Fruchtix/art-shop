@@ -19,7 +19,7 @@ function Home() {
       <Jumbotron />
       <ArtistCarousel />
       <Jumbotron reverse />
-      <Categories />
+      {/* <Categories /> */}
       <CtaBox />
       <Footer />
     </>
