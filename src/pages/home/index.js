@@ -4,7 +4,6 @@ import {
   InfoGrid,
   Jumbotron,
   ArtistCarousel,
-  Categories,
   CtaBox,
   Footer,
   NavBar,

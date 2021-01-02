@@ -10,3 +10,17 @@
 .mr {
   margin-right: 35px;
 }
+
+.artistInfo {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.profileImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  object-fit: cover;
+  margin-right: 15px;
+}

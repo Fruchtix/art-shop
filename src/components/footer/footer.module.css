@@ -1,4 +1,15 @@
 .container {
-  background-color: #fff;
-  height: 20vh;
+  text-align: center;
+  margin: 60px 0px;
+}
+.privacyLink {
+  composes: headlineH2 from "../../styles/globalStyles.module.css";
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+}
+
+.owner {
+  composes: headlineH2 from "../../styles/globalStyles.module.css";
+  font-size: 13px;
 }

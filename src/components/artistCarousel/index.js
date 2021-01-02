@@ -18,17 +18,24 @@ function ArtistCarousel() {
       <div className={styles.artistWrapper}>
         <Artist
           mr
-          imgUrl="https://cdn.pixabay.com/photo/2016/04/12/10/40/portrait-1324074_1280.jpg"
+          profileImg="https://cdn.pixabay.com/photo/2017/09/01/21/53/blue-2705642_1280.jpg"
+          imgUrl="https://cdn.pixabay.com/photo/2015/08/28/11/37/painting-911804_1280.jpg"
         />
         <Artist
           mr
-          imgUrl="https://cdn.pixabay.com/photo/2016/04/12/10/40/portrait-1324074_1280.jpg"
+          profileImg="https://cdn.pixabay.com/photo/2016/03/23/04/01/beautiful-1274056_1280.jpg"
+          imgUrl="https://cdn.pixabay.com/photo/2020/02/04/10/49/animal-4817885_1280.jpg"
         />
         <Artist
           mr
-          imgUrl="https://cdn.pixabay.com/photo/2016/04/12/10/40/portrait-1324074_1280.jpg"
+          profileImg="https://cdn.pixabay.com/photo/2013/01/05/21/02/art-74050_1280.jpg"
+          imgUrl="https://cdn.pixabay.com/photo/2015/08/28/11/37/painting-911804_1280.jpg"
         />
-        <Artist imgUrl="https://cdn.pixabay.com/photo/2016/04/12/10/40/portrait-1324074_1280.jpg" />
+
+        <Artist
+          profileImg="https://cdn.pixabay.com/photo/2015/04/07/15/10/girl-711087_1280.jpg"
+          imgUrl="https://cdn.pixabay.com/photo/2015/12/01/20/28/fall-1072821_1280.jpg"
+        />
       </div>
     </div>
   );

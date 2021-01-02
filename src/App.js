@@ -1,5 +1,5 @@
 import React from "react";
-import { Home, Shop } from "./pages";
+import { Home, Shop, Privacy } from "./pages";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -9,6 +9,9 @@ function App() {
         <Switch>
           <Route path="/art">
             <Shop />
+          </Route>
+          <Route path="/privacy">
+            <Privacy />
           </Route>
           <Route path="/">
             <Home />

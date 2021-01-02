@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "./jumbotron.module.css";
 
 function Jumbotron({ reverse }) {
@@ -11,7 +12,9 @@ function Jumbotron({ reverse }) {
           nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis
           enim ut tellus elementum sagittis vitae et leo duis ut
         </h3>
-        <button className={styles.ctaBtn}>Kunst ansehen</button>
+        <Link to="/art">
+          <button className={styles.ctaBtn}>Kunst ansehen</button>
+        </Link>
       </div>
       <div className={styles.imageWrapper}>
         {/* <img
